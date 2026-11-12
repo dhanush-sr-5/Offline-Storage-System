@@ -1,0 +1,29 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Uploaded files and generated data
+backend/uploads/
+backend/outputs/
+backend/logs/
+
+# Build files
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+# Deployment package exclusions
+deployment/Offline-Storage-Deployment.zip
+deployment/ZIP-Test/
+deployment/Offline-Storage-Deployment/installers/
+
+# Deployment private configuration and generated data
+deployment/Offline-Storage-Deployment/application/backend/.env
+deployment/Offline-Storage-Deployment/application/backend/uploads/
+deployment/Offline-Storage-Deployment/application/backend/outputs/
+deployment/Offline-Storage-Deployment/application/backend/logs/
